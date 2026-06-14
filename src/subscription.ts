@@ -17,7 +17,7 @@ apps.forEach((appConfig) => {
 
 export default defineGkdSubscription({
   id: 210721,
-  name: 'AIsouler的GKD订阅-已停止维护',
+  name: 'Lee的GKD订阅',
   version: 0,
   author: 'AIsouler',
   checkUpdateUrl: './AIsouler_gkd.version.json5',
