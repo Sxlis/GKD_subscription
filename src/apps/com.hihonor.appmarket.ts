@@ -89,5 +89,35 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 5,
+      name: '通知提示-缓存清理',
+      desc: '点击取消',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          fastQuery: true,
+          matches: ['@[text="取消"] + [text="立即开启"]'],
+          snapshotUrls: 'https://i.gkd.li/i/21884571',
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: '更新提示-本体更新',
+      desc: '点击取消',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          fastQuery: true,
+          matches: ['@[text="以后再说"] + [text="立即更新"]'],
+          snapshotUrls: 'https://i.gkd.li/i/29055058',
+        },
+      ],
+    },
   ],
 });

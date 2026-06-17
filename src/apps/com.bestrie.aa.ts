@@ -15,6 +15,7 @@ export default defineGkdApp({
         {
           activityIds: 'io.dcloud.PandoraEntryActivity',
           matches: '[childCount=2] > ImageView[clickable=true][index=0]',
+          snapshotUrls: 'https://i.gkd.li/i/29050791',
         },
       ],
     },
