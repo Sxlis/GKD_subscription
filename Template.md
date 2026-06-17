@@ -47,7 +47,7 @@ https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIso
 - GitHub源
 
 ```txt
-https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5
+https://raw.githubusercontent.com/Sxlis/my-GKD_subscription/main/dist/AIsouler_gkd.json5
 ```
 
 - 当前版本: v--VERSION--
