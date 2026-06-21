@@ -392,5 +392,19 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 23,
+      name: '功能类-消息清除未读',
+      desc: '消息-清除未读',
+      rules: [
+        {
+          key: 0,
+          fastQuery: true,
+          activityIds: 'com.taobao.tao.welcome.Welcome',
+          matches: '[desc="清除未读"] +n * >n [text="清除未读"]',
+          snapshotUrls: ['https://i.gkd.li/i/29178714'],
+        },
+      ],
+    },
   ],
 });
