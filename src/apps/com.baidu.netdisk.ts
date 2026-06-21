@@ -49,15 +49,16 @@ export default defineGkdApp({
       name: '更新提示',
       fastQuery: true,
       actionMaximum: 1,
-      forcedTime: 1000,
+      forcedTime: 10000,
       resetMatch: 'app',
       rules: [
         {
           activityIds: ['.ui.MainActivity', '.ui.cloudp2p.RichMediaActivity'],
-          matches: '[text="立即更新"] -2 [text="下次再说"]', //使用ID会导致误触（例如删除确认https://i.gkd.li/i/13069049）
+          matches: '[text="立即更新"] -n [text="下次再说"]', //使用ID会导致误触（例如删除确认https://i.gkd.li/i/13069049）
           snapshotUrls: [
             'https://i.gkd.li/i/16118181',
             'https://i.gkd.li/i/24834209',
+            'https://i.gkd.li/i/29170986',
           ],
         },
       ],
