@@ -60,11 +60,12 @@ export default defineGkdApp({
         {
           key: 0,
           fastQuery: true,
+          forcedTime: 10000,
           matchTime: 10000,
           actionMaximum: 1,
           resetMatch: 'app',
           activityIds: 'tv.danmaku.bili.MainActivityV2',
-          matches: ['[text="打开推送通知"]', '[text="暂不"]'],
+          matches: '@[text="暂不"] + [text="去开启"]',
           exampleUrls: 'https://e.gkd.li/e67d6d21-f09b-44b0-bf91-8b9fa0670e27',
           snapshotUrls: 'https://i.gkd.li/i/15907493',
         },
