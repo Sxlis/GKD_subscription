@@ -394,8 +394,10 @@ export default defineGkdApp({
     },
     {
       key: 23,
-      name: '功能类-消息清除未读',
+      name: '功能类-清除未读',
       desc: '消息-清除未读',
+      actionMaximum: 1,
+      resetMatch: 'app',
       rules: [
         {
           key: 0,

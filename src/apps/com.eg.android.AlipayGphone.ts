@@ -687,12 +687,14 @@ export default defineGkdApp({
       key: 34,
       name: '功能类-清除未读',
       desc: '消息-清除未读',
+      resetMatch: 'app',
+      actionMaximum: 1,
       rules: [
         {
           key: 0,
           fastQuery: true,
           activityIds: '.AlipayLogin',
-          matches: ['[text="消息"] +n * >n  [desc="一键清除"]'],
+          matches: '[text^="消息"] +n * >n  [desc="一键清除"]',
           snapshotUrls: 'https://i.gkd.li/i/29178551',
         },
       ],
