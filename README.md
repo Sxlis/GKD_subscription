@@ -41,16 +41,16 @@
 - fatly源（国内镜像，推荐大陆用户使用）
 
 ```txt
-https://fastly.jsdelivr.net/gh/Sxlis/my-GKD_subscription@main/dist/AIsouler_gkd.json5
+https://fastly.jsdelivr.net/gh/Sxlis/GKD_subscription@main/dist/AIsouler_gkd.json5
 ```
 
 - GitHub源
 
 ```txt
-https://raw.githubusercontent.com/Sxlis/my-GKD_subscription/main/dist/AIsouler_gkd.json5
+https://raw.githubusercontent.com/Sxlis/GKD_subscription/main/dist/AIsouler_gkd.json5
 ```
 
-- 当前版本: v414
+- 当前版本: v415
 
 - 当前订阅文件已适配 888 个应用，共有 2082 应用规则组，3 全局规则组
 
@@ -78,7 +78,7 @@ https://raw.githubusercontent.com/Sxlis/my-GKD_subscription/main/dist/AIsouler_g
 
 ## 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=414)
+![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=415)
 
 ## Star History
 
