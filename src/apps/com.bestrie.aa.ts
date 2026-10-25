@@ -24,6 +24,7 @@ export default defineGkdApp({
       key: 1,
       name: '更新提示-首页更新提示',
       desc: '点击关闭',
+      matchRoot: true,
       matchTime: 10000,
       forcedTime: 10000,
       actionMaximum: 1,
