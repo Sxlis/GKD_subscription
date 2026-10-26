@@ -574,5 +574,18 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 23,
+      name: '局部广告-视频暂停广告',
+      desc: '点击[取消]',
+      rules: [
+        {
+          activityIds:
+            'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
+          matches: '@[text="取消"][clickable=true] - [text="后将展示广告"]',
+          snapshotUrls: 'https://i.gkd.li/i/1792980806299',
+        },
+      ],
+    },
   ],
 });
