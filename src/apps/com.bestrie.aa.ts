@@ -26,7 +26,7 @@ export default defineGkdApp({
       desc: '点击关闭',
       matchRoot: true,
       matchTime: 10000,
-      forcedTime: 10000,
+      forcedTime: 5000,
       actionMaximum: 1,
       resetMatch: 'app',
       rules: [
