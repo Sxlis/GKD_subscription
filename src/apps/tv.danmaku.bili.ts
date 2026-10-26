@@ -583,7 +583,7 @@ export default defineGkdApp({
           activityIds:
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
           matches: '@[text="取消"][clickable=true] - [text="后将展示广告"]',
-          snapshotUrls: 'https://i.gkd.li/i/1792980806299',
+          snapshotUrls: 'https://i.gkd.li/i/33952397',
         },
       ],
     },
