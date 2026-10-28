@@ -2,7 +2,7 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.baidu.drive.app',
-  name: '百度网盘',
+  name: '百度网盘国际版',
   groups: [
     {
       key: 0,
