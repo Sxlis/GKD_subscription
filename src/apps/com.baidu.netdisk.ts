@@ -77,6 +77,12 @@ export default defineGkdApp({
           matches: 'ImageView[id="com.baidu.netdisk:id/dialog_cancel"]', //单独使用ID会导致误触（例如删除确认https://i.gkd.li/i/13069049）
           snapshotUrls: 'https://i.gkd.li/i/12923936',
         },
+        {
+          key: 1,
+          activityIds: '.ui.MainActivity',
+          matches: '[vid="dialog_button_cancel"][text="暂不开启"]', // [vid] 需配合 text 使用，dialog_button_cancel 为通用取消按钮
+          snapshotUrls: 'https://i.gkd.li/i/34108301',
+        },
       ],
     },
     {
