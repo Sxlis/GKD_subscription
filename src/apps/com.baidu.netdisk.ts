@@ -118,6 +118,13 @@ export default defineGkdApp({
             'https://m.gkd.li/57941037/470eec82-ed99-4f50-beba-2587e525cfdf',
           snapshotUrls: 'https://i.gkd.li/i/14278618',
         },
+        {
+          key: 1,
+          activityIds: 'com.baidu.netdisk.ui.MainActivity',
+          matches:
+            '@[vid="close_clean_guide"] - [text$="备份" && clickable=true] - * > [text="开启照片自动备份"]',
+          snapshotUrls: 'https://i.gkd.li/i/34160738',
+        },
       ],
     },
     {
