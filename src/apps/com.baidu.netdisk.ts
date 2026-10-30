@@ -83,6 +83,12 @@ export default defineGkdApp({
           matches: '[vid="dialog_button_cancel"][text="暂不开启"]', // [vid] 需配合 text 使用，dialog_button_cancel 为通用取消按钮
           snapshotUrls: 'https://i.gkd.li/i/34108301',
         },
+        {
+          key: 2,
+          activityIds: '.ui.MainActivity',
+          matches: '[text="开启推送提醒"] +n * > [text="暂不开启"]', // 与国际版结构一致，不依赖 vid
+          snapshotUrls: 'https://i.gkd.li/i/34108301',
+        },
       ],
     },
     {
