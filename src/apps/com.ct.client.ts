@@ -51,12 +51,15 @@ export default defineGkdApp({
             '.activity.MainActivity',
             '.activity.SplashActivity',
             '.common.ConfirmDialogActivity',
+            '.common.UpdateDialogActivity',
           ],
-          matches: 'LinearLayout > [text="取消升级"]',
+          // 新旧版本按钮顺序相反，两个文案同时存在才触发，点最后一个（取消升级）
+          matches: ['[text="立即升级"]', '[text="取消升级"]'],
           snapshotUrls: [
             'https://i.gkd.li/i/12819594',
             'https://i.gkd.li/i/13316168',
             'https://i.gkd.li/i/13695096',
+            'https://i.gkd.li/i/34259003',
           ],
         },
       ],
