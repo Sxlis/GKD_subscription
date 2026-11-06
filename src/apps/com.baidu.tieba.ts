@@ -72,8 +72,7 @@ export default defineGkdApp({
           // 消息页通知提示卡片，两个按钮均无文本(vid 固定为 obfuscated 且不可快速查询)，靠位置取左边"暂不开启"
           key: 3,
           activityIds: '.tblauncher.MainTabActivity',
-          matches:
-            '[text="不错过任何精彩通知"] +2 * > [clickable=true][index=0]',
+          matches: '[text$="通知"] +2 * > [clickable=true][index=0]',
           snapshotUrls: 'https://i.gkd.li/i/34312203',
         },
       ],
